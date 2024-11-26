@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2a9d8f;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+  background-color: #21867a; /* Darken the navbar on hover */
+}
+
+.navbar-logo h1 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #f4a261;
+}
+
+.navbar-profile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #ffffff;
+}
+
+.profile-icon {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.profile-icon:hover {
+  transform: rotate(360deg); /* Icon spin on hover */
+}
